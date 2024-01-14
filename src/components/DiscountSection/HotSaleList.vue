@@ -6,7 +6,7 @@
         :discount="item"
         :lines="2"
         width="100%"
-        :ref="(el) => (index === items.length - 1 ? (itemRef = el as HTMLElement) : '')"
+        :ref="(el: any) => (index === items.length - 1 ? (itemRef = el as HTMLElement) : '')"
       />
     </div>
   </div>
