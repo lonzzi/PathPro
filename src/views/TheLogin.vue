@@ -6,7 +6,7 @@
       </template>
     </van-nav-bar>
     <h1 class="text-2xl font-bold text-center my-10">登录</h1>
-    <van-form @submit="onSubmit" model="params">
+    <van-form @submit="onSubmit" model="params" class="flex justify-center items-center">
       <van-cell-group inset>
         <van-field
           v-model="params.username"
