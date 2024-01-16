@@ -1,8 +1,6 @@
 <template>
   <div>
-    <div>
-      <span class="font-bold">所有目的地</span>
-    </div>
+    <img src="../../assets/image/NoOrder.jpg" alt="" />
   </div>
 </template>
 

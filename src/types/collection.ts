@@ -1,4 +1,4 @@
-export type Discount = {
+export type Collection = {
   // 收藏类型
   category: string
   // 收藏信息列表
